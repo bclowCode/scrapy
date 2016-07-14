@@ -12,4 +12,6 @@ class MyprojectItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     image_urls = scrapy.Field()
+    imgLink = scrapy.Field()
     desc = scrapy.Field()
+
