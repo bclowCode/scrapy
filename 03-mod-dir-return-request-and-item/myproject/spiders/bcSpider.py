@@ -67,10 +67,13 @@ class BcspiderSpider(scrapy.Spider):
              
         for sel in response.css("div.title-and-desc"):
             item = MyprojectItem()
-            item['title'] = sel.xpath('a/div[@class="site-title"]/text()').extract_first()
-            item['link'] = sel.xpath('a/@href').extract_first()
-            item['desc'] = sel.xpath('div[@class="site-descr "]/text()').extract_first().strip()
-            item['referral'] = "> ".join(response.meta[BcspiderSpider.METAKEY_REFERRAL_LIST])
+            item['title']           = sel.xpath('a/div[@class="site-title"]/text()').extract_first()
+            item['link']            = sel.xpath('a/@href').extract_first()
+            item['desc']            = sel.xpath('div[@class="site-descr "]/text()').extract_first().strip()
+            item['referral']        = response.url
+            item['referralPath']    = "> ".join(response.meta[BcspiderSpider.METAKEY_REFERRAL_LIST])
+            item['seed']            = response.meta[BcspiderSpider.METAKEY_SEED];
+            item['depth']           = response.meta[BcspiderSpider.METAKEY_DEPTH];
             if imgUrl is not None :
                 item['image_urls'] = [ imgUrl ]
             self.logger.info('new item: %s', item['title'])
