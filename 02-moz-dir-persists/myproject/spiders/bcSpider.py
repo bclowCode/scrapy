@@ -20,7 +20,9 @@ class BcspiderSpider(scrapy.Spider):
         #for href in response.css("ul.directory.dir-col > li > a::attr('href')"):
         for href in response.css("div.cat-item > a"):
             url = response.urljoin(href.xpath('@href').extract_first())
-            yield scrapy.Request(url, callback=self.parse_dir_contents)
+            request = scrapy.Request(url, callback=self.parse_dir_contents)
+            request.meta['proxy'] = 'http://127.0.0.1:3128'
+            yield request
 
     def parse_dir_contents(self, response):
         imgUrl = None
