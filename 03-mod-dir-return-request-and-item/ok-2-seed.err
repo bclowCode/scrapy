@@ -1,0 +1,2314 @@
+2016-07-19 17:21:19 [scrapy] INFO: Scrapy 1.1.0 started (bot: myproject)
+2016-07-19 17:21:19 [scrapy] INFO: Overridden settings: {'BOT_NAME': 'myproject', 'FEED_URI': 'ok-2-seed.json', 'IMAGES_RESULT_FIELD': 'imgLink', 'SPIDER_MODULES': ['myproject.spiders'], 'FEED_FORMAT': 'json', 'ROBOTSTXT_OBEY': True, 'NEWSPIDER_MODULE': 'myproject.spiders'}
+2016-07-19 17:21:19 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2016-07-19 17:21:19 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-07-19 17:21:19 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-07-19 17:21:19 [scrapy] INFO: Enabled item pipelines:
+['scrapy.pipelines.images.ImagesPipeline']
+2016-07-19 17:21:19 [scrapy] INFO: Spider opened
+2016-07-19 17:21:19 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-07-19 17:21:19 [scrapy] DEBUG: Crawled (404) <GET http://n9.sitetag.us:8080/robots.txt> (referer: None)
+2016-07-19 17:21:19 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/> (referer: None)
+2016-07-19 17:21:19 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/> (referer: None)
+2016-07-19 17:21:20 [bcSpider] INFO:  depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/], seed [Development_Tools], list [Development_Tools], depth 0
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Documentation_Tools/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/GUI_Builders/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Hap Python Remote Debugger 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO:  depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/], seed [Modules], list [Modules], depth 0
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Directories/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Distributed_Computing/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Scientific/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyCrust - The Flakiest Python Shell 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pymerase 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyReverse 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Tixapps Applications Framework 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Winpdb 
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Email/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Terminal_IO/index.html
+2016-07-19 17:21:20 [bcSpider] INFO: new item: config 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ExpectPy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Grouch 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: log4p 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: mxBase package extensions for Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Orange 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Parallel Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Sisyphus 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: The Snack Sound Toolkit 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: txObject ATK 
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Scientific/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Distributed_Computing/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Documentation_Tools/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Directories/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Terminal_IO/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/GUI_Builders/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/>
+{'desc': 'A remote debugger and IDE that can also be used for local debugging.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://hapdebugger.sourceforge.net/',
+ 'referral': 'Development_Tools',
+ 'title': 'Hap Python Remote Debugger '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Email/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/)
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/>
+{'desc': 'An interactive, graphical Python shell written in Python using '
+         'wxPython.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://sourceforge.net/projects/pycrust/',
+ 'referral': 'Development_Tools',
+ 'title': 'PyCrust - The Flakiest Python Shell '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/>
+{'desc': 'A tool intended to generate a python object model, relational '
+         'database, and an object-relational model connecting the two using '
+         'UML or XML. However, it has been extended to also output GUI widgets '
+         'and can be easily extended to output whatever else you might like. '
+         '[Open source, MIT License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://pymerase.sourceforge.net/',
+ 'referral': 'Development_Tools',
+ 'title': 'Pymerase '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/>
+{'desc': 'A set of tools for reverse engineering Python code, including '
+         'creation of files readable by ArgoUML. Project information, '
+         'downloads, and bug-track details. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.logilab.org/2560/',
+ 'referral': 'Development_Tools',
+ 'title': 'PyReverse '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/>
+{'desc': 'Tixapps applications are a suite of development applications that '
+         'run with  Tk/Tcl or Python, using the Tix widget set. [Open Source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://tix.sourceforge.net/Tixapps/',
+ 'referral': 'Development_Tools',
+ 'title': 'Tixapps Applications Framework '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/>
+{'desc': 'An advanced python debugger, with support for smart breakpoints, '
+         'multiple threads, namespace modification, embedded debugging and '
+         'encrypted communication.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://winpdb.org/',
+ 'referral': 'Development_Tools',
+ 'title': 'Winpdb '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'Module allows implement a hierarchical configuration scheme for '
+         'Python applications.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.red-dove.com/python_config.html',
+ 'referral': 'Modules',
+ 'title': 'config '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'An extension for a Python-feel to the Expect library. [Open Source, '
+         'LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://expectpy.sourceforge.net/',
+ 'referral': 'Modules',
+ 'title': 'ExpectPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'Web development related open source software packages developed by '
+         'MEMS and Nanotechnology Exchange. [Open Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'https://www.mems-exchange.org/software/',
+ 'referral': 'Modules',
+ 'title': 'Grouch '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'The Logging Toolkit For Python, modeled after the Java toolkit '
+         'log4j. [Open Source, IBM Public License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.red-dove.com/python_logging.html',
+ 'referral': 'Modules',
+ 'title': 'log4p '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'The eGenix.com mx Extensions for Python are a collection of '
+         "professional quality Python software tools which enhance Python's "
+         'usability in many important areas such as ODBC database '
+         'connectivity, fast text processing, date/time processing and web '
+         'site programming.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.egenix.com/products/python/mxBase/',
+ 'referral': 'Modules',
+ 'title': 'mxBase package extensions for Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'A free, component-based, public domain data mining software, which '
+         'includes a range of preprocessing, modelling and data exploration '
+         'techniques. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.ailab.si/orange',
+ 'referral': 'Modules',
+ 'title': 'Orange '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'Provides an open source module to allow parallel execution of code '
+         'on systems with multiple processors and on clusters. Features list, '
+         'documentation, download, code samples, and a discussion forum.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.parallelpython.com/',
+ 'referral': 'Modules',
+ 'title': 'Parallel Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'A module that simplifies running Python stuff as cron jobs. [Open '
+         'Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.livinglogic.de/Python/sisyphus/',
+ 'referral': 'Modules',
+ 'title': 'Sisyphus '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'Module for basic sound handling (sound card and disk I/O); includes '
+         'primitives for sound visualization, e.g. waveforms and spectrograms. '
+         '[Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.speech.kth.se/snack/',
+ 'referral': 'Modules',
+ 'title': 'The Snack Sound Toolkit '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/>
+{'desc': 'Contains the following parts: Object Library, IO/Timers, Threads, '
+         'Inter-Process/Distributed Communication. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://txobject.sourceforge.net/',
+ 'referral': 'Modules',
+ 'title': 'txObject ATK '}
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html], seed [Development_Tools], list [Development_Tools> Deployment], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Ansible 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: cx_Freeze 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Fabric 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: py2app 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: py2exe 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyInstaller 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html], seed [Modules], list [Modules> Text_Processing], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: CSV importer/exporter 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: CSV module for Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: EmPy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: mxTextTools 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyMifluz 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyparsing 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyStemmer 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ServPDF 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SimpleParse 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SnoPy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SPARK 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html], seed [Modules], list [Modules> Databases_and_Persistence], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Another Python SQLite Wrapper 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: MetaKit for Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Metakit for Python (Mk4py) 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: mxBeeBase 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PDO 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pSQL 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyBSDdb 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyDO2 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python Database Row Module 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python SQL Database Access System 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Scientific/index.html], seed [Modules], list [Modules> Scientific], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: The Biopython Project 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pmv, ADT and ViPEr 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyCGNS 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyDaylight 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SQLAlchemy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SQLObject 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html], seed [Modules], list [Modules> Cryptography], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Advanced Encryption Suite 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: auth-modules 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: CryptKit 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pisces 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyOpenSSL 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python mcrypt wrapper 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python OpenSSL Wrappers 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Distributed_Computing/index.html], seed [Modules], list [Modules> Distributed_Computing], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Fast Python Xmlrpc Library 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: omniORBpy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ORBit-Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python Web Services 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html], seed [Modules], list [Modules> Math_and_Calculations], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: FixedPoint.py 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: GMPY 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: MatPy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Multipack Home Page 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: mxDateTime 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: NURBS - Non Uniform Rational B-Splines 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyGiNaC 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pygsl 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: QuantLib 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: R/SPlus 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ScientificPython 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SciPy 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html], seed [Modules], list [Modules> GUI], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: anygui 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: The Dabo Framework 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: FXPy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pmw 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyGTK 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyKDE 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyQt 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python X Library 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PythonCard 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Tix 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Tix Applications Framework 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Tkinter3000 Widget Construction Kit 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: wxPython 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html], seed [Modules], list [Modules> Graphics], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Biggles 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: gdmodule 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Gnuplot.py 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Lightflow Rendering Interface 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Matplotlib 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: The MayaVi Data Visualizer 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Ming 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyChart 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pygal 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyOpenGL 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python Computer Graphics Kit 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python TWAIN Module 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PythonWare Image Library (PIL) 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html], seed [Modules], list [Modules> Network], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html
+2016-07-19 17:21:20 [scrapy] DEBUG: Filtered duplicate request: <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2016-07-19 17:21:20 [bcSpider] INFO: new item: asynchttp 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: CDDB.py 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ftputil 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: jabber.py 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: paramiko 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyDNS 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pylibnet 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pylibpcap 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyMETAR 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PySNMP 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python Network Library 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python-LDAP 
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html)
+2016-07-19 17:21:20 [bcSpider] INFO: new item: xdialog 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Documentation_Tools/index.html], seed [Development_Tools], list [Development_Tools> Documentation_Tools], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: HappyDoc 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Synopsis 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html], seed [Development_Tools], list [Development_Tools> Foreign_Language_Interfaces], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Boost.Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: F2PY 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Java-Python Extension 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyObjC 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pyrex 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SIP 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SWIG (Simplified Wrapper and Interface Generator) 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Directories/index.html], seed [Modules], list [Modules> Directories], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Free(code): Python Software 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/barcalounger.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html], seed [Development_Tools], list [Development_Tools> Performance_and_Testing], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Hypothesis 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Nose 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Psyco 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyChecker 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyLint 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pytest 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyUnit 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: twill 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: VideoCapture 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: VPython 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html>
+{'desc': 'Build automation, deployment and management tool. [General Public '
+         'License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'https://www.ansible.com/',
+ 'referral': 'Development_Tools> Deployment',
+ 'title': 'Ansible '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html>
+{'desc': 'A set of utilities for freezing Python scripts into executables, '
+         'available for Windows and many Unix variants.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://cx-freeze.sourceforge.net/',
+ 'referral': 'Development_Tools> Deployment',
+ 'title': 'cx_Freeze '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html>
+{'desc': 'Command line deployment tool for deployment and system '
+         'administration. [BSD License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.fabfile.org/',
+ 'referral': 'Development_Tools> Deployment',
+ 'title': 'Fabric '}
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyX10 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: radius.py 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Twisted 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html>
+{'desc': 'A distutils command that packages Python programs into stand-alone '
+         'Mac applications. [MIT/PSF License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'https://pythonhosted.org/py2app/',
+ 'referral': 'Development_Tools> Deployment',
+ 'title': 'py2app '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html>
+{'desc': 'A distutils extension to convert Python scripts into executable '
+         'Windows programs.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.py2exe.org/',
+ 'referral': 'Development_Tools> Deployment',
+ 'title': 'py2exe '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Deployment/index.html>
+{'desc': 'A program that packages Python programs into stand-alone '
+         'executables, under Windows, Linux and Irix.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.pyinstaller.org/',
+ 'referral': 'Development_Tools> Deployment',
+ 'title': 'PyInstaller '}
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Terminal_IO/index.html], seed [Modules], list [Modules> Terminal_IO], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyrepl 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/GUI_Builders/index.html], seed [Development_Tools], list [Development_Tools> GUI_Builders], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: VisualWX 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: XRCed 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html], seed [Development_Tools], list [Development_Tools> Integrated_Development_Environments], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Boa Constructor 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Eric 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Komodo IDE 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Stani's Python Editor (SPE) 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Wing IDE 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/index.html], seed [Modules], list [Modules> Platform_Specific], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Linux/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Windows/index.html
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Email/index.html], seed [Modules], list [Modules> Email], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: libgmail 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html], seed [Modules], list [Modules> Data_Formats], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ASN.1 library for Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: cx_bsdiff 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ID3.py 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: LZO 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyLZMA 
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html], seed [Modules], list [Modules> Web], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://www.dmoz.org/Computers/Software/Groupware/Wiki/Wiki_Engines/Python/
+2016-07-19 17:21:20 [scrapy] DEBUG: Filtered offsite request to 'www.dmoz.org': <GET http://www.dmoz.org/Computers/Software/Groupware/Wiki/Wiki_Engines/Python/>
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://www.dmoz.org/Computers/Software/Internet/Servers/Application/Zope/
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ASPN Python Modules 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ASV for Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: CDDB audio CD track info access 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: FastCGI wrapper 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: The form module 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: A list of open-source HTTP proxies written in Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Rob Hooft's Python Modules 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Welman 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'Has heuristics for determining file format and an optional wxPython '
+         'dialog. [Open Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://sourceforge.net/projects/python-dsv/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'CSV importer/exporter '}
+2016-07-19 17:21:20 [bcSpider] INFO:   depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html], seed [Modules], list [Modules> XML], depth 1
+2016-07-19 17:21:20 [bcSpider] INFO:     new_request: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/Parsers/index.html
+2016-07-19 17:21:20 [bcSpider] INFO: new item: jaxml 
+2016-07-19 17:21:20 [scrapy] DEBUG: File (uptodate): Downloaded image from <GET http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif> referred in <None>
+2016-07-19 17:21:20 [bcSpider] INFO: new item: maki 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PIRXX 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Pyana 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PySablot 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PyTREX 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'Module for fast reading of CVS files. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://www.object-craft.com.au/projects/csv/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'CSV module for Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'A templating system for Python. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://www.alcyone.com/software/empy/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'EmPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'Fast Text Manipulation Tools for Python. [Open Source]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://www.egenix.com/products/python/mxBase/mxTextTools/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'mxTextTools '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'Python bindings for mifluz (C++ library to build and query a full '
+         'text inverted index). [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://sourceforge.net/projects/pymifluz/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'pyMifluz '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'A general parsing module for Python. Grammars are implemented '
+         'directly in the client code using parsing objects, instead of '
+         'externally, as with lex/yacc-type tools. Includes simple examples '
+         'for parsing SQL, CORBA IDL, and 4-function math. [Open source, MIT '
+         'License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://pyparsing.wikispaces.com/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'pyparsing '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'Provides stemmer functionality in Python for English, German, '
+         'Norwegian, Italian, Dutch, Portuguese, French, Swedish. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://sourceforge.net/projects/pystemmer/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'PyStemmer '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'A web based Microsoft Office to PDF Converter Server which is based '
+         'on SPYCE (Python Server Pages) and uses COM Automation to convert '
+         'Office documents to Postscript and PDF. [Freeware]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://www.goermezer.de/content/view/20/205/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'ServPDF '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'A parser generator for mxTextTools. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://simpleparse.sourceforge.net/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'SimpleParse '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'Python extension for SNOBOL Pattern Matching using the SNOBOL code '
+         'from the GNAT Ada compiler. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://snopy.sourceforge.net/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'SnoPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Text_Processing/index.html>
+{'desc': 'Scanning, Parsing, and Rewriting Kit. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'],
+ 'imgLink': [{'checksum': 'bf2ea77218311ea483d02c2c528deec6',
+              'path': 'full/5ca59966f4b2159807bbd3dd26badee5cf7d179c.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/obooksm.gif'}],
+ 'link': 'http://pages.cpsc.ucalgary.ca/~aycock/spark/',
+ 'referral': 'Modules> Text_Processing',
+ 'title': 'SPARK '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'APSW is a thin wrapper over the SQLite 3 API. [Open Source, '
+         'zlib/libpng license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'https://github.com/rogerbinns/apsw',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'Another Python SQLite Wrapper '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'A Python interface to MetaKit. MetaKit is an embeddable database '
+         'which runs on Unix, Windows, Macintosh, and other platforms. '
+         '[Open-Source, MIT]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://equi4.com/metakit/python.html',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'MetaKit for Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'A lower-level API for the Metakit C++ core extension, and uses SCXX '
+         'by Gordon McMillan as C++ glue interface. [X/MIT-style and '
+         'commercial licenses]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://equi4.com/metakit/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'Metakit for Python (Mk4py) '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'On-disk B+Tree Based Database Kit. [Open Source]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.egenix.com/products/python/mxBase/mxBeeBase/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'mxBeeBase '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'Python Database Objects provides a convenient Object Oriented API '
+         'for database access in Python.  PDO supports multiple RDBMS with the '
+         'same API, and provides features not found in the DB-API spec, such '
+         'as column access by name. [OPen source, BSD style license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://pdo.neurokode.com/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'PDO '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'A wrapper above MySQLdb which renders MySQL databases as very '
+         'comfortable pythonic objects.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://software.fionet.com/pSQL/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'pSQL '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'Python bindings for BerkeleyDB 3.x embeddable database. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://pybsddb.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'pyBSDdb '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'An ORM (Object-Relational Mapper) database access library for '
+         'Python. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://skunkweb.sourceforge.net/pydo2.html',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'PyDO2 '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'This Python 2.2 module defines light-weight objects which allow very '
+         'flexible access to a fixed number of positional and named attributes '
+         'via several interfaces. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://opensource.theopalgroup.com/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'Python Database Row Module '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'A simple and consistent programming interface to SQL databases, in '
+         'Python. [Open source,  Python Software Foundation License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://sourceforge.net/projects/pysqldb/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'Python SQL Database Access System '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Scientific/index.html>
+{'desc': 'Freely available  Python tools for computational molecular biology.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'],
+ 'imgLink': [{'checksum': '1b245c391a946e2324e150564ec04ee4',
+              'path': 'full/c47f1b373ed9a962bc9088fe68d6345aaa2cfd1f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'}],
+ 'link': 'http://www.biopython.org/',
+ 'referral': 'Modules> Scientific',
+ 'title': 'The Biopython Project '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Scientific/index.html>
+{'desc': 'Python software from the Molecular Graphics Lab (MGL) of the Scripps '
+         'Research institute. [Free for non-commercial use]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'],
+ 'imgLink': [{'checksum': '1b245c391a946e2324e150564ec04ee4',
+              'path': 'full/c47f1b373ed9a962bc9088fe68d6345aaa2cfd1f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'}],
+ 'link': 'http://mgltools.scripps.edu/',
+ 'referral': 'Modules> Scientific',
+ 'title': 'Pmv, ADT and ViPEr '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Scientific/index.html>
+{'desc': 'Python interface for CGNS (data standard for computational fluid '
+         'dynamics). [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'],
+ 'imgLink': [{'checksum': '1b245c391a946e2324e150564ec04ee4',
+              'path': 'full/c47f1b373ed9a962bc9088fe68d6345aaa2cfd1f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'}],
+ 'link': 'http://elsa.onera.fr/CGNS/releases/',
+ 'referral': 'Modules> Scientific',
+ 'title': 'pyCGNS '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Scientific/index.html>
+{'desc': 'Turns the Daylight toolkit into a rapid application development '
+         'system for chemical information by providing a full Python '
+         'interface. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'],
+ 'imgLink': [{'checksum': '1b245c391a946e2324e150564ec04ee4',
+              'path': 'full/c47f1b373ed9a962bc9088fe68d6345aaa2cfd1f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/periodicmozilla.gif'}],
+ 'link': 'http://sourceforge.net/projects/pydaylight/',
+ 'referral': 'Modules> Scientific',
+ 'title': 'PyDaylight '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'SQL toolkit and Object Relational Mapper that gives application '
+         'developers the full power and flexibility of SQL. [Open Source, MIT '
+         'license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.sqlalchemy.org/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'SQLAlchemy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/index.html>
+{'desc': 'An Object Relational Manager for providing an object interface to '
+         'your database, with tables as classes, rows as instances, and '
+         'columns as attributes. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://sqlobject.org/',
+ 'referral': 'Modules> Databases_and_Persistence',
+ 'title': 'SQLObject '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html>
+{'desc': 'Implementations of the SHA256, AES and several CSPRNGs in pure '
+         'Python. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://sourceforge.net/projects/pyaes/',
+ 'referral': 'Modules> Cryptography',
+ 'title': 'Advanced Encryption Suite '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html>
+{'desc': 'A module collection for password authentication purposes and user '
+         'database management. [Open source]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://www.chrisarndt.de/en/software/python/#auth',
+ 'referral': 'Modules> Cryptography',
+ 'title': 'auth-modules '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html>
+{'desc': 'A Cryptographic Toolkit for Python, which, among others, provides '
+         'access to the SHA256, AES and ellipcitic curves algorithms. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://sourceforge.net/projects/cryptkit/',
+ 'referral': 'Modules> Cryptography',
+ 'title': 'CryptKit '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html>
+{'desc': 'Python implementation of the SPKI Certificate standard. [Open '
+         'Source, Python License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://www.cnri.reston.va.us/software/pisces/',
+ 'referral': 'Modules> Cryptography',
+ 'title': 'Pisces '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html>
+{'desc': 'Python interface to the OpenSSL library. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://pyopenssl.sourceforge.net/',
+ 'referral': 'Modules> Cryptography',
+ 'title': 'pyOpenSSL '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html>
+{'desc': 'Python-mcrypt is a Python interface to the mcrypt library, which '
+         'provides a uniform interface to several symmetric encryption '
+         'algorithms. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://sourceforge.net/projects/python-mcrypt/',
+ 'referral': 'Modules> Cryptography',
+ 'title': 'Python mcrypt wrapper '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Cryptography/index.html>
+{'desc': 'A set of wrappers for Python of the OpenSSL libraries. POW will '
+         "provide a 'slim' interface which will still enable Python developers "
+         'to fully utilise OpenSSL. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://sourceforge.net/projects/pow/',
+ 'referral': 'Modules> Cryptography',
+ 'title': 'Python OpenSSL Wrappers '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Distributed_Computing/index.html>
+{'desc': 'Fast implementation of the xmlrpc spec for Python with support for '
+         'both blocking and non-blocking clients and servers on Windows and '
+         'POSIX platforms. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'],
+ 'imgLink': [{'checksum': '3c35fc5c9c74e06ec127ecf532164251',
+              'path': 'full/c7ceffec508080ad2a772bb5c427d9613017fb54.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'}],
+ 'link': 'http://sourceforge.net/projects/py-xmlrpc/',
+ 'referral': 'Modules> Distributed_Computing',
+ 'title': 'Fast Python Xmlrpc Library '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Distributed_Computing/index.html>
+{'desc': 'The Python version of the OmniORB CORBA Object Request Broker. [Open '
+         'Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'],
+ 'imgLink': [{'checksum': '3c35fc5c9c74e06ec127ecf532164251',
+              'path': 'full/c7ceffec508080ad2a772bb5c427d9613017fb54.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'}],
+ 'link': 'http://omniorb.sourceforge.net/',
+ 'referral': 'Modules> Distributed_Computing',
+ 'title': 'omniORBpy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Distributed_Computing/index.html>
+{'desc': 'Python bindings for the ORBit CORBA Object Request Broker. [Open '
+         'Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'],
+ 'imgLink': [{'checksum': '3c35fc5c9c74e06ec127ecf532164251',
+              'path': 'full/c7ceffec508080ad2a772bb5c427d9613017fb54.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'}],
+ 'link': 'http://sourceforge.net/projects/orbit-python/',
+ 'referral': 'Modules> Distributed_Computing',
+ 'title': 'ORBit-Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Distributed_Computing/index.html>
+{'desc': 'Sourceforge project that hosts the SOAP implementations SOAP.py and '
+         'ZSI (Zolera SOAP Infrastructure). [Open Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'],
+ 'imgLink': [{'checksum': '3c35fc5c9c74e06ec127ecf532164251',
+              'path': 'full/c7ceffec508080ad2a772bb5c427d9613017fb54.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/atlas.gif'}],
+ 'link': 'http://sourceforge.net/projects/pywebsvcs/',
+ 'referral': 'Modules> Distributed_Computing',
+ 'title': 'Python Web Services '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'Python code module for fixed point decimal calculations.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://fixedpoint.sourceforge.net/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'FixedPoint.py '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'Provides multiprecision arithmetic functionality to Python '
+         'programmers. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://gmpy.sourceforge.net/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'GMPY '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'Python package for numerical computation and plotting with a '
+         'MatLab-like interface.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://matpy.sourceforge.net/MatPy/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'MatPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'Collection of FORTRAN routines interfaced with NumPy. Provides   '
+         'interactive data analysis environment comparative to MATLAB, Octave, '
+         'Scilab, etc. built on Python.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://pylab.sourceforge.net/multipack.html',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'Multipack Home Page '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'Date and Time types for Python. [Open Source]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://www.egenix.com/products/python/mxBase/mxDateTime/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'mxDateTime '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'NURBS algorithms in use for naval architecture.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://runten.tripod.com/NURBS/index.html',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'NURBS - Non Uniform Rational B-Splines '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'A Python interface to the C++ library GiNaC (an open framework for '
+         'symbolic computation within the C++ programming language). [Open '
+         'Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://cens.ioc.ee/projects/pyginac/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'PyGiNaC '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'A Python interface for the GNU scientific library. [Open Source, '
+         'GPL/LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://pygsl.sourceforge.net/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'pygsl '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'A free/open-source library for quantitative finance. [Open Source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://quantlib.org/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'QuantLib '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'Python interface to the R system for statistical computing and '
+         'graphics. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://www.omegahat.org/RSPython/index.html',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'R/SPlus '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'A collection of Python modules that are useful for scientific '
+         'computing. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://dirac.cnrs-orleans.fr/plone/software/scientificpython/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'ScientificPython '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Math_and_Calculations/index.html>
+{'desc': 'Open Source Library of Scientific Tools.  SciPy supplements the '
+         'popular Numeric module, gathering a variety of high level science '
+         'and engineering modules together as a single package. Within SciPy '
+         'are modules for graphics and plotting, optimization, integration, '
+         'special functions, signal and image processing, genetic algorithms, '
+         'ODE solvers, and others. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'],
+ 'imgLink': [{'checksum': '5c8069fd8296cb25a8878c0d7b676d7c',
+              'path': 'full/0e95832f55ab04491e5282863989f830adb7b2a6.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/einstein.gif'}],
+ 'link': 'http://www.scipy.org/',
+ 'referral': 'Modules> Math_and_Calculations',
+ 'title': 'SciPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'The goal of this project is to create an easy-to-use, simple, and '
+         'generic module for making graphical user interfaces in Python. [Open '
+         'Source, MIT license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://sourceforge.net/projects/anygui/',
+ 'referral': 'Modules> GUI',
+ 'title': 'anygui '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'A 3-tier, cross-platform application development framework, written '
+         'in Python atop the wxPython GUI toolkit. [Open source, MIT license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://dabodev.com/',
+ 'referral': 'Modules> GUI',
+ 'title': 'The Dabo Framework '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Provides an interface to the FOX GUI library. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://fxpy.sourceforge.net/',
+ 'referral': 'Modules> GUI',
+ 'title': 'FXPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Python meta widgets is a toolkit for building high-level compound '
+         'widgets in Python using the Tkinter module. [Open Source, MIT '
+         'license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://pmw.sourceforge.net/',
+ 'referral': 'Modules> GUI',
+ 'title': 'Pmw '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Python bindings for the GTK widget set. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://www.pygtk.org/',
+ 'referral': 'Modules> GUI',
+ 'title': 'PyGTK '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Python bindings for the KDE desktop environment. [GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://sourceforge.net/projects/pykde/',
+ 'referral': 'Modules> GUI',
+ 'title': 'PyKDE '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Contains Python bindings for the Qt GUI toolkit. [Open Source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://www.riverbankcomputing.co.uk/software/pyqt/',
+ 'referral': 'Modules> GUI',
+ 'title': 'PyQt '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Pure Python interface to X Window system. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://python-xlib.sourceforge.net/',
+ 'referral': 'Modules> GUI',
+ 'title': 'Python X Library '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'A software construction kit built in, and using, Python. Its purpose '
+         'is to allow you to easily and quickly build graphical applications. '
+         '[Open Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://pythoncard.sourceforge.net/',
+ 'referral': 'Modules> GUI',
+ 'title': 'PythonCard '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'The Tk Interface eXtension is a set of GUI components that enhance '
+         'the appearance and functionality of your Tkinter applications. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://tix.sourceforge.net/',
+ 'referral': 'Modules> GUI',
+ 'title': 'Tix '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Tixapps applications are a suite of development applications that '
+         'run with Tk/Tcl or Python using the Tix widget set. Applications '
+         'currently included are:  tixinspect - an inspector for Tix/Tk '
+         'applications; tixdebug - a debugger to work with tixinspect; and  '
+         'tixinfo - an information browser for GNU documentation.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://tix.sourceforge.net/Tixapps/',
+ 'referral': 'Modules> GUI',
+ 'title': 'Tix Applications Framework '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'Tkinter3000 is a Widget Construction Kit that allows you to write '
+         'new Tkinter widgets in  Python using Mixins. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://www.effbot.org/zone/wck.htm',
+ 'referral': 'Modules> GUI',
+ 'title': 'Tkinter3000 Widget Construction Kit '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'A popular cross-platform Python GUI toolkit for Windows and Unix '
+         'with native look and feel on each platform. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://www.wxpython.org/',
+ 'referral': 'Modules> GUI',
+ 'title': 'wxPython '}
+2016-07-19 17:21:20 [bcSpider] INFO: new item: xmlSiteMakerPy 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A 2D scientific plotting package for Python, geared toward the '
+         'production of publication-quality plots. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://sourceforge.net/projects/biggles/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Biggles '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'Python support for GD graphics library. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://newcenturycomputers.net/projects/gdmodule.html',
+ 'referral': 'Modules> Graphics',
+ 'title': 'gdmodule '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A Python interface to the gnuplot plotting program. [Open Source, '
+         'GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://gnuplot-py.sourceforge.net/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Gnuplot.py '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'An object oriented programming interface to synthetic rendering, '
+         'which provides a common environment and description language to '
+         'treat light distribution in three dimensional spaces. Also provides '
+         'a Python API to the renderer. Free for non-commercial use.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://www.lightflowtech.com/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Lightflow Rendering Interface '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': '2D plotting library which produces publication quality figures in a '
+         'variety of hardcopy formats and interactive environments across '
+         'platforms. Matplotlib can be used in python scripts, the python and '
+         'ipython shell (ala MATLAB, or Mathematica), web application servers, '
+         'and six graphical user interface toolkits.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://matplotlib.org/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Matplotlib '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A free, easy to use scientific data visualizer. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://mayavi.sourceforge.net/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'The MayaVi Data Visualizer '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A C library for generating SWF ("Flash") format movies. Ming '
+         'includes a Python wrapper for the library. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://www.libming.org/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Ming '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A Python library for creating high quality Encapsulated Postscript, '
+         'PDF, PNG, or SVG charts. [Open source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://home.gna.org/pychart/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'PyChart '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A python SVG Charts Creator.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://pygal.org/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Pygal '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'The binding layer between Python and OpenGL. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://pyopengl.sourceforge.net/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'PyOpenGL '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'Modules for creating 3D computer graphics images, focusing on '
+         "Pixar's RenderMan interface. [Open Source, BSD-like]",
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://cgkit.sourceforge.net/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Python Computer Graphics Kit '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'Provides an interface to the Microsoft Windows TWAIN sub-system. '
+         '[Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://twainmodule.sourceforge.net/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'Python TWAIN Module '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'Provides image processing functionality and supports many file '
+         'formats. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://www.pythonware.com/products/pil/index.htm',
+ 'referral': 'Modules> Graphics',
+ 'title': 'PythonWare Image Library (PIL) '}
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyxhtml 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SIG for XML Processing in Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: wctpxml-python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: XIST 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: xmlproc 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'An asynchronous HTTP client library. [Open Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://asynchttp.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'asynchttp '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'Modules to access the CDDB online database of audio CD track titles '
+         'and information. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://cddb-py.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'CDDB.py '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A high-level interface to the ftplib module with an interface like '
+         'the modules os and os.path in the standard library. [Open Source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://www.sschwarzer.net/python/python_software.html',
+ 'referral': 'Modules> Network',
+ 'title': 'ftputil '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A Python module for the jabber instant messaging protocol. [Open '
+         'Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://jabberpy.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'jabber.py '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A module for Python that implements the SSH2 protocol for secure '
+         '(encrypted and authenticated) connections to remote machines. [Open '
+         'source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://www.lag.net/paramiko/',
+ 'referral': 'Modules> Network',
+ 'title': 'paramiko '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A module for looking up DNS entries with Python applications. [Open '
+         'Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://pydns.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'PyDNS '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'Interface for the libnet packet assembly system. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://pylibnet.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'pylibnet '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A Python module for the libpcap packet capture library. You can use '
+         'it to write a custom packet sniffer. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://sourceforge.net/projects/pylibpcap/',
+ 'referral': 'Modules> Network',
+ 'title': 'Pylibpcap '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'Downloads the weather report for a given NOAA station ID, decodes it '
+         'and the provides easy access to all the data found in the report.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://www.schwarzvogel.de/software-pymetar.shtml',
+ 'referral': 'Modules> Network',
+ 'title': 'PyMETAR '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A set of Python packages implementing SNMP entities. [Open source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://pysnmp.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'PySNMP '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'Dissects network packets, as returned from pylibpcap. [Open Source, '
+         'GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://pynetlibs.sourceforge.net/default.html',
+ 'referral': 'Modules> Network',
+ 'title': 'Python Network Library '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'An LDAP client API for Python. [Public Domain]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://www.python-ldap.org/',
+ 'referral': 'Modules> Network',
+ 'title': 'Python-LDAP '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/GUI/index.html>
+{'desc': 'A wrapper for the Xdialog program that encapsulates the details of '
+         'calling Xdialog and getting return values. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'],
+ 'imgLink': [{'checksum': 'd22eb4b9ed71c2f153c79206c9f7c662',
+              'path': 'full/f03fe35bcf2e4374c317e631d327629a2b24ef9f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/puter2.gif'}],
+ 'link': 'http://www.chrisarndt.de/en/software/python/#xdialog',
+ 'referral': 'Modules> GUI',
+ 'title': 'xdialog '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Documentation_Tools/index.html>
+{'desc': 'A tool for extracting documentation from Python source code.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://happydoc.sourceforge.net/',
+ 'referral': 'Development_Tools> Documentation_Tools',
+ 'title': 'HappyDoc '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Documentation_Tools/index.html>
+{'desc': 'A general source code documentation tool.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://synopsis.fresco.org/',
+ 'referral': 'Development_Tools> Documentation_Tools',
+ 'title': 'Synopsis '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html>
+{'desc': 'A C++ library which enables seamless interoperability between C++ '
+         'and the Python programming language.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.boost.org/libs/python/doc/',
+ 'referral': 'Development_Tools> Foreign_Language_Interfaces',
+ 'title': 'Boost.Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html>
+{'desc': 'A Fortran to Python Interface Generator. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://cens.ioc.ee/projects/f2py2e/',
+ 'referral': 'Development_Tools> Foreign_Language_Interfaces',
+ 'title': 'F2PY '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html>
+{'desc': 'A seamless, complete, and efficient integration of Java and standard '
+         "Python (C Python). JPE provides Java access to Python's native "
+         "extension, and Java's Swing to Python developers. [Open Source, MPL]",
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://sourceforge.net/projects/jpe/',
+ 'referral': 'Development_Tools> Foreign_Language_Interfaces',
+ 'title': 'Java-Python Extension '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html>
+{'desc': 'Provides a bridge between the Python and Objective-C programming '
+         'languages. [Open Source, MIT license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://pyobjc.sourceforge.net/',
+ 'referral': 'Development_Tools> Foreign_Language_Interfaces',
+ 'title': 'PyObjC '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html>
+{'desc': 'A Python-like language for writing extension modules.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/',
+ 'referral': 'Development_Tools> Foreign_Language_Interfaces',
+ 'title': 'Pyrex '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html>
+{'desc': 'A tool that makes it very easy to create Python bindings for C and '
+         'C++ libraries.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.riverbankcomputing.co.uk/software/sip/',
+ 'referral': 'Development_Tools> Foreign_Language_Interfaces',
+ 'title': 'SIP '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Foreign_Language_Interfaces/index.html>
+{'desc': 'A tool that easily allows a developer to wrap C/C++ functions for '
+         'use with scripting languages. Currently supports Python, Perl, and '
+         'Tcl.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.swig.org/',
+ 'referral': 'Development_Tools> Foreign_Language_Interfaces',
+ 'title': 'SWIG (Simplified Wrapper and Interface Generator) '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Directories/index.html>
+{'desc': 'A listing of software written in Python in the Free(code) appindex.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/barcalounger.gif'],
+ 'imgLink': [{'checksum': 'f91fc84a39ee09194bd6b77121bb271f',
+              'path': 'full/2268ff08feecfa653c365ad6bdb019a77c383366.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/barcalounger.gif'}],
+ 'link': 'http://freecode.com/tags/python',
+ 'referral': 'Modules> Directories',
+ 'title': 'Free(code): Python Software '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': 'Open source QuickCheck-style testing library. [Mozilla Public '
+         'License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'https://github.com/DRMacIver/hypothesis',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'Hypothesis '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': 'Popular unit testing tool. [LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'https://nose.readthedocs.org/',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'Nose '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': 'Specializing (like a dynamic) compiler for Python, runs code 2-100 '
+         'times faster, needs much memory; makes high level language faster. '
+         'Descriptions, downloads (program, website), documents, news, links. '
+         '[Open Source, MIT]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://psyco.sourceforge.net/',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'Psyco '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': 'A tool for finding common bugs in Python source code. It finds '
+         'problems that are typically caught by a compiler for less dynamic '
+         'languages, like C and C++. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://pychecker.sourceforge.net/',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'PyChecker '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': 'An extensible tool that checks if a module satisfies a given coding '
+         'standard.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.logilab.org/857/',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'PyLint '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': 'Mature, open source unit testing library. [MIT License]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://pytest.org/',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'pytest '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': "An extensible unit testing framework for Python, based on Java's de "
+         'facto standard JUnit framework.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://pyunit.sourceforge.net/',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'PyUnit '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Performance_and_Testing/index.html>
+{'desc': 'A tool for Web application testing. It implements a simple scripting '
+         'language that can be used interactively or from scripts; this '
+         'language contains commands for browsing the Web, filling out forms, '
+         'and asserting various conditions.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://twill.idyll.org/',
+ 'referral': 'Development_Tools> Performance_and_Testing',
+ 'title': 'twill '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A Win32 Python Extension for Accessing Video Devices (e.g. a USB '
+         'WebCam, a TV-Card, ...) [Open-Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://videocapture.sourceforge.net/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'VideoCapture '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Graphics/index.html>
+{'desc': 'A free, open-source module for producing real-time 3D scenes with '
+         'Python. Includes a modified version of IDLE. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'],
+ 'imgLink': [{'checksum': '3ad0203f5c232baa4df39300efd3c3ed',
+              'path': 'full/b0b7b1c78b16b55e20e1fc78c7afb5ac8b1d2745.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/dali.gif'}],
+ 'link': 'http://www.vpython.org/',
+ 'referral': 'Modules> Graphics',
+ 'title': 'VPython '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A set of Python modules for the XAL X10 Automation Library. [Open '
+         'Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://pyx10.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'pyX10 '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'A pure Python RFC2138 compliant RADIUS authentication module. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://py-radius.sourceforge.net/',
+ 'referral': 'Modules> Network',
+ 'title': 'radius.py '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Network/index.html>
+{'desc': 'An extensive Python library for event-driven network programming. '
+         '[Open Source, MIT/X]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'],
+ 'imgLink': [{'checksum': '4c838f5aa627ae2d9cfb2db7d9ad9f58',
+              'path': 'full/1092e5dfd1dd952557bf135a4292c6e401d3415a.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/reseau.gif'}],
+ 'link': 'http://www.twistedmatrix.com/',
+ 'referral': 'Modules> Network',
+ 'title': 'Twisted '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Terminal_IO/index.html>
+{'desc': 'A replacement for readline for use from Python with better '
+         'multi-line editing. [Open Source, Python-style]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://starship.python.net/crew/mwh/hacks/pyrepl.html',
+ 'referral': 'Modules> Terminal_IO',
+ 'title': 'pyrepl '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/GUI_Builders/index.html>
+{'desc': 'A wxPython GUI designer for Windows. [Freeware]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://visualwx.altervista.org/',
+ 'referral': 'Development_Tools> GUI_Builders',
+ 'title': 'VisualWX '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/GUI_Builders/index.html>
+{'desc': 'A simple resource editor for wxWindows/wxPython GUI development '
+         'which supports creating and editing files in XRC format. It is '
+         'written in Python and uses wxPython GUI toolkit. [Open source, BSD '
+         'license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://xrced.sourceforge.net/',
+ 'referral': 'Development_Tools> GUI_Builders',
+ 'title': 'XRCed '}
+2016-07-19 17:21:20 [bcSpider] INFO:    depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html], seed [Modules], list [Modules> Databases_and_Persistence> Database_API], depth 2
+2016-07-19 17:21:20 [bcSpider] INFO: new item: ADODBAPI 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: bpgsql 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: cx_Oracle 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: DCOracle 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: DCOracle2 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Ingres interface 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: KInterbasDB 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: mxODBC 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: MySQLdb 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pg8000 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pgasync 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html>
+{'desc': 'A Python IDE that includes a GUI builder for wxPython. [Open Source, '
+         'GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://boa-constructor.sourceforge.net/',
+ 'referral': 'Development_Tools> Integrated_Development_Environments',
+ 'title': 'Boa Constructor '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html>
+{'desc': 'A Python IDE written in PyQt using the QScintilla editor widget. '
+         '[Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://eric-ide.python-projects.org/',
+ 'referral': 'Development_Tools> Integrated_Development_Environments',
+ 'title': 'Eric '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html>
+{'desc': 'Text editor for dynamic programming languages, offering advanced '
+         'support for Perl, PHP, JavaScript, Python, Tcl, and XSLT. Based on '
+         'Scintilla and Mozilla. [Open Source]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://www.activestate.com/komodo-ide',
+ 'referral': 'Development_Tools> Integrated_Development_Environments',
+ 'title': 'Komodo IDE '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html>
+{'desc': 'A full-featured Python IDE and ships with Python Debugger (rpdb2), '
+         'wxGlade (gui designer), PyChecker(source code doctor), Kiki(regex '
+         'console) and Blender(3d) support. [Open source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://pythonide.blogspot.com/',
+ 'referral': 'Development_Tools> Integrated_Development_Environments',
+ 'title': "Stani's Python Editor (SPE) "}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/Integrated_Development_Environments/index.html>
+{'desc': 'A powerful development environment for the Python programming '
+         'language. [Commercial]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'],
+ 'imgLink': [{'checksum': 'a0b928b5109dc6ef034ff560e6eda6eb',
+              'path': 'full/4635fe15a73f735455e979726c5962ea363be01b.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/swami.gif'}],
+ 'link': 'http://wingide.com/wingide',
+ 'referral': 'Development_Tools> Integrated_Development_Environments',
+ 'title': 'Wing IDE '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/Parsers/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Windows/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/index.html)
+2016-07-19 17:21:20 [scrapy] DEBUG: Crawled (200) <GET http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Linux/index.html> (referer: http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/index.html)
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Email/index.html>
+{'desc': "Python binding for Google's Gmail service. [Open Source, GPL]",
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://libgmail.sourceforge.net/',
+ 'referral': 'Modules> Email',
+ 'title': 'libgmail '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html>
+{'desc': 'An ASN.1 types and codecs implementation. [Open Source, BSD]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://pyasn1.sourceforge.net/',
+ 'referral': 'Modules> Data_Formats',
+ 'title': 'ASN.1 library for Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html>
+{'desc': 'A Python extension module for binary patching and diffing. [Open '
+         'Source, BSD license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://starship.python.net/crew/atuining/cx_bsdiff/index.html',
+ 'referral': 'Modules> Data_Formats',
+ 'title': 'cx_bsdiff '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html>
+{'desc': 'A simple Python module for retrieving and setting ID3 tags on MP3 '
+         'compressed audio files through an object-oriented interface. [Open '
+         'Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://id3-py.sourceforge.net/',
+ 'referral': 'Modules> Data_Formats',
+ 'title': 'ID3.py '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html>
+{'desc': 'Python bindings for the LZO real-time data compression library. '
+         '[Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.oberhumer.com/opensource/lzo/',
+ 'referral': 'Modules> Data_Formats',
+ 'title': 'LZO '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Data_Formats/index.html>
+{'desc': 'Platform independent Python bindings for the LZMA compression '
+         'library. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://www.joachim-bauch.de/projects/python/pylzma',
+ 'referral': 'Modules> Data_Formats',
+ 'title': 'PyLZMA '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'ActiveState Open Source Programming tools for Perl Python XML xslt '
+         'scripting with free trials. Quality development tools for '
+         'programmers systems administrators database administrators network '
+         'administrators and webmasters',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://aspn.activestate.com/ASPN/Python/Modules/',
+ 'referral': 'Modules> Web',
+ 'title': 'ASPN Python Modules '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'A platform independent Python module to input, manipulate and output '
+         "'simple' database storage file formats such as CSV (Comma Separated "
+         'Value) and TSV (Tab Separated Value). Also includes examples for '
+         'using the module.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://tratt.net/laurie/src/python/asv/',
+ 'referral': 'Modules> Web',
+ 'title': 'ASV for Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'This package allows retrieving CDDB audio CD track info access '
+         "through Python.  In essence, it's a combination of three modules to "
+         'access the CDDB online database.  The included C extension module '
+         'enables it to fetch track lengths under many popular Operating '
+         'Systems with easy portability.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://cddb-py.sourceforge.net/',
+ 'referral': 'Modules> Web',
+ 'title': 'CDDB audio CD track info access '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': "Use Robin Dunn's fcgi.py from a multi-threaded Python program. [Open "
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://www.fastcgi.com/',
+ 'referral': 'Modules> Web',
+ 'title': 'FastCGI wrapper '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'An (incompatible) alternative to the CGI module from the standard '
+         'Python distribution. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://www.doxdesk.com/software/py/form.html',
+ 'referral': 'Modules> Web',
+ 'title': 'The form module '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'The function of this page is to make this searching and comparison '
+         'process easier for Python programmers.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://proxies.xhaus.com/',
+ 'referral': 'Modules> Web',
+ 'title': 'A list of open-source HTTP proxies written in Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'The modules presented on this page are those that the author felt '
+         'were most generally applicable to python users, out of those that he '
+         'contributed for the Bruker Nonius KappaCCD.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://starship.python.net/crew/hooft/',
+ 'referral': 'Modules> Web',
+ 'title': "Rob Hooft's Python Modules "}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'The web external link manager makes evident the external links '
+         'embedded in the pages of a web site by inserting of a marker image '
+         'just after the link text. The program can also check the status of '
+         'each external link and set two different markers selected by the '
+         'user: one for ok status and one for broken status. [Freeware]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://welman.inrim.it/',
+ 'referral': 'Modules> Web',
+ 'title': 'Welman '}
+2016-07-19 17:21:20 [bcSpider] INFO: new item: PoPy 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pymssql 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyodbc 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: pyPgSQL 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SAP DB 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: SQL Relay 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Sybase module for Python 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: zxJDBC 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'Module for quick generation of XML (and HTML) documents with a '
+         'stream-based approach. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://www.librelogiciel.com/software/jaxml/action_Presentation',
+ 'referral': 'Modules> XML',
+ 'title': 'jaxml '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'An attempt to glue together a simple, flexible framework that allows '
+         'you to use XML, XSLT, Apache, and Python to serve web pages. [Open '
+         'Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://maki.sourceforge.net/',
+ 'referral': 'Modules> XML',
+ 'title': 'maki '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'A Python InteRface to Xerces and Xalan, integrating it into PyXML. '
+         '[Open Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://pirxx.sourceforge.net/',
+ 'referral': 'Modules> XML',
+ 'title': 'PIRXX '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'A extension module that allows Python programs to interface with the '
+         "Apache Software Foundation's Xalan XSLT transformation engine. [Open "
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://sourceforge.net/projects/pyana/',
+ 'referral': 'Modules> XML',
+ 'title': 'Pyana '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'Python bindings for Sablotron (a XSLT library) providing a simple '
+         'API for in-memory XSLT transformations or file-to-file '
+         'transformation. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://sourceforge.net/projects/pysablot/',
+ 'referral': 'Modules> XML',
+ 'title': 'PySablot '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'A Python implementation of TREX, an XML schema language. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://pytrex.sourceforge.net/',
+ 'referral': 'Modules> XML',
+ 'title': 'PyTREX '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Web/index.html>
+{'desc': 'Describes XML/XSLT based tool for offline HTML site generation, with '
+         'download and examples.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'],
+ 'imgLink': [{'checksum': '889c2db2032e3e757455b21acedc28d1',
+              'path': 'full/cf18d8c7efeaf20007110f6cfb516a55e76044fc.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/motrix.jpg'}],
+ 'link': 'http://xmlsitemakerpy.sourceforge.net/',
+ 'referral': 'Modules> Web',
+ 'title': 'xmlSiteMakerPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'A Python XHTML class can be used to programatically generate XHTML '
+         'documents. [Open source, BSD license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://pyxhtml.sourceforge.net/',
+ 'referral': 'Modules> XML',
+ 'title': 'pyxhtml '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'While Python includes basic XML processing capabilities, the goal of '
+         'this SIG is to make Python become the premier language for XML '
+         'processing. The SIG, through the mailing list and the PyXML project '
+         'hosted on SourceForge, is helping to decide what software is '
+         'required for this purpose, and coordinate its implementation and '
+         'documentation.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'https://www.python.org/community/sigs/current/xml-sig/',
+ 'referral': 'Modules> XML',
+ 'title': 'SIG for XML Processing in Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'A Python module that uses WCTP to send XML forms over HTTP. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://sourceforge.net/projects/wctpxml-python/',
+ 'referral': 'Modules> XML',
+ 'title': 'wctpxml-python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'A DOM parser (built on top of SAX2) with a very simple and '
+         'pythonesque tree API and conversion methods ("object-oriented XSL"), '
+         'for example for creating HTML. [Open-Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://www.livinglogic.de/Python/xist/',
+ 'referral': 'Modules> XML',
+ 'title': 'XIST '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/index.html>
+{'desc': 'An XML parser written in Python. It is a nearly complete validating '
+         'parser with SGML Open Catalogs and XCatalog 0.1 support, SAX drivers '
+         'and additional utilities.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://www.garshol.priv.no/download/software/xmlproc/',
+ 'referral': 'Modules> XML',
+ 'title': 'xmlproc '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A DB-API 2.0 module for accessing data sources via Micrsosoft ADO. '
+         '[Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://adodbapi.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'ADODBAPI '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A barebones PostgreSQL client written in pure Python. [Open Source, '
+         'MIT]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://barryp.org/software/bpgsql/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'bpgsql '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'Oracle 8i interface developed by Computronix. [Open Source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://cx-oracle.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'cx_Oracle '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'Python DB-API interface to Oracle 7 and 8 databases. [Open Source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.zope.org/Products/DCOracle',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'DCOracle '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A Python DB API 2.0 adapter for Oracle 8. [Open Source, ZPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.zope.org/Members/matt/dco2',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'DCOracle2 '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A Python database API 2.0 conforming CA Ingres module.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.informatik.uni-rostock.de/~hme/software/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'Ingres interface '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'Python module for interfacing Interbase databases. [Open Source, '
+         'BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://kinterbasdb.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'KInterbasDB '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A DB-API 2.0 compliant ODBC Interface for Python. Available for '
+         'Windows, Unix and Mac OS X. [Commercial]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.egenix.com/products/python/mxODBC/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'mxODBC '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'Python interface to MySQL databases. [Open Source, Python '
+         'License/GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://sourceforge.net/projects/mysql-python/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'MySQLdb '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A pure Python interface to the PostgreSQL database engine. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://pybrary.net/pg8000/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'pg8000 '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A PostgreSQL client library for Python with special support for '
+         'Twisted. [Open Source, BSD]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://jamwt.com/pgasync/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'pgasync '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A PostgreSQL driver for Python. [Open Source, GPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.zope.org/Members/tm/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'PoPy '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A fast MS SQL Server client library for Python directly using C API '
+         'instead of ODBC. Also supports UN*X platforms with FreeTDS. [Open '
+         'Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://pymssql.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'pymssql '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'An implementation of the Python Database API Specification v2.0 for '
+         'ODBC on Microsoft Windows. [Open Source, MIT license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://pyodbc.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'pyodbc '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A Python DB-API 2.0 compliant interface to a PostgreSQL (v7.0 and '
+         'later) database. [Open Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://pypgsql.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'pyPgSQL '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'An interface to the SAP DB database. [Open Source, LGPL]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.sapdb.org/sap_db_program.htm',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'SAP DB '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'Persistent database connection pooling, proxying and load balancing '
+         'system for Unix with a Python API. [Open Source]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://sourceforge.net/projects/sqlrelay/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'SQL Relay '}
+2016-07-19 17:21:20 [bcSpider] INFO:    depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/Parsers/index.html], seed [Modules], list [Modules> XML> Parsers], depth 2
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python and XML Processing 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: Python/XML HowTo 
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'A Python interface to the Sybase relational database system. [Open '
+         'Source, BSD-like]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://python-sybase.sourceforge.net/',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'Sybase module for Python '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/Database_API/index.html>
+{'desc': 'Database connectivity in Jython (Python on the Java platform). [Open '
+         'Source, Python license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'],
+ 'imgLink': [{'checksum': '7dc833abf280ab06d71a9b7c17c7dd15',
+              'path': 'full/e4786e25e095ff95954b21b795257f67e4086c8d.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/lasso.gif'}],
+ 'link': 'http://www.jython.org/archive/21/docs/zxjdbc.html',
+ 'referral': 'Modules> Databases_and_Persistence> Database_API',
+ 'title': 'zxJDBC '}
+2016-07-19 17:21:20 [bcSpider] INFO:    depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Windows/index.html], seed [Modules], list [Modules> Platform_Specific> Windows], depth 2
+2016-07-19 17:21:20 [bcSpider] INFO: new item: readline.py 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: WConio (Windows CONsole I/O) 
+2016-07-19 17:21:20 [bcSpider] INFO: new item: wnd 
+2016-07-19 17:21:20 [bcSpider] INFO:    depth_tracking: on node [http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Linux/index.html], seed [Modules], list [Modules> Platform_Specific> Linux], depth 2
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/Parsers/index.html>
+{'desc': "Python's power and ease of use combine to make it an excellent "
+         'choice for writing programs that process XML data.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://pyxml.sourceforge.net/topics/',
+ 'referral': 'Modules> XML> Parsers',
+ 'title': 'Python and XML Processing '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/XML/Parsers/index.html>
+{'desc': 'Tutorial on parsing XML in Python.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'],
+ 'imgLink': [{'checksum': '70dd9ce8d6a14afcc5f77bad55678d7a',
+              'path': 'full/af1a935c44713b82ab73f1c40f9d919df9244b4f.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/Programming_Mozilla.gif'}],
+ 'link': 'http://pyxml.sourceforge.net/topics/howto/xml-howto.html',
+ 'referral': 'Modules> XML> Parsers',
+ 'title': 'Python/XML HowTo '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Windows/index.html>
+{'desc': 'Alternative Readline implementation for Python under Win32.',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://newcenturycomputers.net/projects/readline.html',
+ 'referral': 'Modules> Platform_Specific> Windows',
+ 'title': 'readline.py '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Windows/index.html>
+{'desc': 'TurboC conio.h style console support for Python under Win32. [Public '
+         'Domain]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://newcenturycomputers.net/projects/wconio.html',
+ 'referral': 'Modules> Platform_Specific> Windows',
+ 'title': 'WConio (Windows CONsole I/O) '}
+2016-07-19 17:21:20 [scrapy] DEBUG: Scraped from <200 http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/Platform_Specific/Windows/index.html>
+{'desc': 'A native win32 GUI toolkit, taking advantage of low-level calls of '
+         'the native win32 libraries. Builds upon ctypes. [Open Source, MIT '
+         'license]',
+ 'image_urls': ['http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'],
+ 'imgLink': [{'checksum': 'f1a68da30f1a3ae6282d36d6fa11ebcd',
+              'path': 'full/d47c432bb4dbd21df7f1109d7bbbd35cb44ef8a9.jpg',
+              'url': 'http://n9.sitetag.us:8080/page/www.dmoz.org/img/moz/chef.gif'}],
+ 'link': 'http://wnd.sourceforge.net/',
+ 'referral': 'Modules> Platform_Specific> Windows',
+ 'title': 'wnd '}
+2016-07-19 17:21:20 [scrapy] INFO: Closing spider (finished)
+2016-07-19 17:21:20 [scrapy] INFO: Stored json feed (192 items) in: ok-2-seed.json
+2016-07-19 17:21:20 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 11530,
+ 'downloader/request_count': 29,
+ 'downloader/request_method_count/GET': 29,
+ 'downloader/response_bytes': 154483,
+ 'downloader/response_count': 29,
+ 'downloader/response_status_count/200': 28,
+ 'downloader/response_status_count/404': 1,
+ 'dupefilter/filtered': 1,
+ 'file_count': 13,
+ 'file_status_count/uptodate': 13,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 7, 19, 9, 21, 20, 800877),
+ 'item_scraped_count': 192,
+ 'log_count/DEBUG': 236,
+ 'log_count/INFO': 257,
+ 'offsite/domains': 1,
+ 'offsite/filtered': 2,
+ 'request_depth_max': 2,
+ 'response_received_count': 29,
+ 'scheduler/dequeued': 28,
+ 'scheduler/dequeued/memory': 28,
+ 'scheduler/enqueued': 28,
+ 'scheduler/enqueued/memory': 28,
+ 'start_time': datetime.datetime(2016, 7, 19, 9, 21, 19, 948069)}
+2016-07-19 17:21:20 [scrapy] INFO: Spider closed (finished)
