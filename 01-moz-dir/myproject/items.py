@@ -14,4 +14,5 @@ class MyprojectItem(scrapy.Item):
     image_urls = scrapy.Field()
     imgLink = scrapy.Field()
     desc = scrapy.Field()
+    referral = scrapy.Field()
 

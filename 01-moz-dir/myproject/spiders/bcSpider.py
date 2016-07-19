@@ -5,15 +5,13 @@ from myproject.items import MyprojectItem
 
 class BcspiderSpider(scrapy.Spider):
     name = "bcSpider"
-    custom_setting = {
-            'ROBOTSTXT_OBEY': False
-            }
 
-    allowed_domains = ["dmoz.org"]
+    allowed_domains = ["n9.sitetag.us"]
     start_urls = [
         #"http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
         #"http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/"
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/"
+        #"http://www.dmoz.org/Computers/Programming/Languages/Python/"
+        "http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/"
     ]
 
     def parse(self, response):
@@ -32,6 +30,7 @@ class BcspiderSpider(scrapy.Spider):
             item['title'] = sel.xpath('a/div[@class="site-title"]/text()').extract_first()
             item['link'] = sel.xpath('a/@href').extract_first()
             item['desc'] = sel.xpath('div[@class="site-descr "]/text()').extract_first().strip()
+            item['referral'] = response.url
             if imgUrl is not None :
                 item['image_urls'] = [ imgUrl ]
             yield item
