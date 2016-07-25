@@ -12,16 +12,29 @@ def getNodeName(s):
 class BcspiderSpider(scrapy.Spider):
     name = "bcSpider"
 
+    custom_settings = {
+		# control robot rule
+		# http://doc.scrapy.org/en/latest/topics/downloader-middleware.html#module-scrapy.downloadermiddlewares.robotstxt	
+        'ROBOTSTXT_OBEY': False,
+
+		# cache control for dev
+		# http://doc.scrapy.org/en/latest/topics/downloader-middleware.html#module-scrapy.downloadermiddlewares.httpcache
+		'HTTPCACHE_ENABLED': True,
+		'HTTPCACHE_EXPIRATION_SECS': 0, 									# default
+		'HTTPCACHE_POLICY': 'scrapy.extensions.httpcache.DummyPolicy',		# default
+		'HTTPCACHE_DIR': 'httpcache',										# default
+    }
+
     allowed_domains = ["n9.sitetag.us"]
     start_urls = [
         #"http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
         #"http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/"
         #"http://www.dmoz.org/Computers/Programming/Languages/Python/"
 
-#        "http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/"
+        "http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/"
 
-        "http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/",
-        "http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/"
+#        "http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Development_Tools/",
+#        "http://n9.sitetag.us:8080/page/www.dmoz.org/Computers/Programming/Languages/Python/Modules/"
     ]
 
     METAKEY_SEED = 'feebee.seed'
@@ -32,28 +45,29 @@ class BcspiderSpider(scrapy.Spider):
 
     def parse(self, response):
         #for href in response.css("ul.directory.dir-col > li > a::attr('href')"):
-        referralMeta={}
+        currNodeName = getNodeName(response.url)
         if BcspiderSpider.METAKEY_SEED not in response.meta :
-            referralMeta[BcspiderSpider.METAKEY_SEED]          = getNodeName(response.url)
-            referralMeta[BcspiderSpider.METAKEY_REFERRAL]      = ""
-            referralMeta[BcspiderSpider.METAKEY_REFERRAL_LIST] = [ getNodeName(response.url) ]
-            referralMeta[BcspiderSpider.METAKEY_DEPTH]         = 0
-            response.meta.update(referralMeta)
-        else:
-            referralMeta[BcspiderSpider.METAKEY_SEED]          = response.meta[BcspiderSpider.METAKEY_SEED]
-            referralMeta[BcspiderSpider.METAKEY_REFERRAL]      = getNodeName(response.url)
-            response.meta[BcspiderSpider.METAKEY_REFERRAL_LIST].append(getNodeName(response.url))
-            referralMeta[BcspiderSpider.METAKEY_REFERRAL_LIST] = response.meta[BcspiderSpider.METAKEY_REFERRAL_LIST]
-            referralMeta[BcspiderSpider.METAKEY_DEPTH]         = response.meta[BcspiderSpider.METAKEY_DEPTH] + 1
+            initMeta = {}
+            initMeta[BcspiderSpider.METAKEY_SEED]          = currNodeName
+            initMeta[BcspiderSpider.METAKEY_REFERRAL]      = ""
+            initMeta[BcspiderSpider.METAKEY_REFERRAL_LIST] = [ ]
+            initMeta[BcspiderSpider.METAKEY_DEPTH]         = 0
+            response.meta.update(initMeta)
+
+        referralMeta = {} 
+        referralMeta[BcspiderSpider.METAKEY_SEED]          = response.meta[BcspiderSpider.METAKEY_SEED]
+        referralMeta[BcspiderSpider.METAKEY_REFERRAL]      = currNodeName
+        referralMeta[BcspiderSpider.METAKEY_REFERRAL_LIST] = response.meta[BcspiderSpider.METAKEY_REFERRAL_LIST].copy()
+        referralMeta[BcspiderSpider.METAKEY_REFERRAL_LIST].append( currNodeName )
+        referralMeta[BcspiderSpider.METAKEY_DEPTH]         = response.meta[BcspiderSpider.METAKEY_DEPTH] + 1
+
         self.logger.info('%s depth_tracking: on node [%s], seed [%s], list [%s], depth %d', " " * referralMeta[BcspiderSpider.METAKEY_DEPTH], response.url, referralMeta[BcspiderSpider.METAKEY_SEED], "> ".join(referralMeta[BcspiderSpider.METAKEY_REFERRAL_LIST]), referralMeta[BcspiderSpider.METAKEY_DEPTH])
-
-
 
         for href in response.css("div.cat-item > a"):
             url = response.urljoin(href.xpath('@href').extract_first())
             self.logger.info('    new_request: %s', url)
             request = scrapy.Request(url, callback=self.parse)
-            request.meta.update(copy.deepcopy(referralMeta))
+            request.meta.update(referralMeta)
             yield request
 
         for item in self.parse_dir_contents(response):
